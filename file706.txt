@@ -1,0 +1,5 @@
+Order number: 706
+Client: Florina Vlad
+Product: Blouse
+Quantity :5
+Total price: 350.0

@@ -1,0 +1,5 @@
+Order number: 651
+Client: Cezar Zbughin
+Product: Jeans
+Quantity :1
+Total price: 120.0

@@ -1,0 +1,5 @@
+Order number: 694
+Client: Test
+Product: Test
+Quantity :50
+Total price: 611.5

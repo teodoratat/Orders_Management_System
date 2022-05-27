@@ -1,0 +1,5 @@
+Order number: 4450
+Client: Florina Vlad
+Product: Jacket
+Quantity :2
+Total price: 240.6

@@ -1,0 +1,5 @@
+Order number: 7203
+Client: Test
+Product: Test
+Quantity :2
+Total price: 24.46

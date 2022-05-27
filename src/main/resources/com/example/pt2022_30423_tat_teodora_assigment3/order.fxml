@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="406.0" prefWidth="610.0" style="-fx-background-color: LIGHTBLUE;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Presentation.OrderViewController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="34.0" prefWidth="594.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="ORDER" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="Candara Light Italic" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="312.0" prefWidth="583.0">
+         <children>
+            <TableView fx:id="table" prefHeight="312.0" prefWidth="529.0" style="-fx-background-color: PLUM;">
+               <columns>
+                  <TableColumn fx:id="idColumn" prefWidth="45.5999755859375" text="ID" />
+                  <TableColumn fx:id="clientColumn" prefWidth="144.00000762939453" text="Client" />
+                  <TableColumn fx:id="productColumn" prefWidth="155.20001220703125" text="Product" />
+                  <TableColumn fx:id="quantityColumn" prefWidth="184.79995727539062" text="Quantity" />
+               </columns>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TableView>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="60.0" prefWidth="610.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="60.0" prefWidth="280.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#onBackButtonClick" prefHeight="44.0" prefWidth="102.0" style="-fx-background-color: PLUM;" text="back">
+                     <font>
+                        <Font name="Candara Light" size="17.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="60.0" prefWidth="240.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#onAddButtonClick" prefHeight="41.0" prefWidth="106.0" style="-fx-background-color: PLUM;" text="add">
+                     <font>
+                        <Font name="Candara Light" size="17.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>

@@ -1,0 +1,5 @@
+Order number: 8677
+Client: Antonia Tat
+Product: Blouse
+Quantity :4
+Total price: 280.0

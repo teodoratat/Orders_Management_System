@@ -1,0 +1,5 @@
+Order number: 6630
+Client: Cezar Zbughin
+Product: Pants
+Quantity :3
+Total price: 600.0

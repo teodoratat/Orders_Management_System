@@ -1,0 +1,5 @@
+Order number: 133
+Client: Florina Vlad
+Product: Dress
+Quantity :13
+Total price: 5200.0

@@ -1,0 +1,5 @@
+Order number: 7405
+Client: Florina Vlad
+Product: TestN
+Quantity :1
+Total price: 100.0

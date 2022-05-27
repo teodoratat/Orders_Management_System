@@ -1,0 +1,5 @@
+Order number: 2575
+Client: Cezar Zbughin
+Product: Dress
+Quantity :1
+Total price: 400.0
